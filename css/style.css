@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+hr {
+    border-style: none;
+    border-color: #FAD6A5;
+    border-top-style: dotted;
+    border-width: 8px;
+    width: 10%;
+    
+}
+h1 {
+   font-size: 60px;
+    position: absolute;  
+    width: 50%;
+    top: 100px;
+    right: 350px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF; 
+}
+                                               /*div {
+                                              background-color: #C7E9B0;
+                                                } */ 
+
+                                              /* height: 200px;
+                                                 width: 200px;
+                                                 border:solid 10px;
+                                                 padding: 20px;*/
+
+                                             /*.topcolor {
+                                               background-color: red;
+                                               border:solid 20px;
+                                               width: 200px;
+                                               height: 200px;
+                                               position: static;
+                                               }
+
+                                               .bottomcolor {
+                                                background-color: blue;
+                                                border:solid 10px;
+                                                width: 200px;
+                                                 height: 200px;
+                                               }  */
+.h4{
+   font-weight: normal;
+   position: absolute; 
+   top: 230px;
+   right: 625px;
+   font-family: 'Montserrat', sans-serif;
+   color: #66BFBF;
+}
+
+.mountain{
+    position: absolute;
+    left: 250px;
+    bottom: 0%;
+}
+.cloud1{
+    position: absolute;
+    left: 300px;
+    top: 30px;
+}
+
+.cloud2{
+    position: absolute;
+    right: 300px;
+    top: 300px;
+}
+.bird{
+    position: absolute;
+    left:400px;
+    top:300px;
+}
+.tress{
+    position: absolute;
+    bottom: 0;
+    height:100px;
+    width:17%;
+    right: 0px;
+}
+.tress1{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 19%;
+    left: 0;
+}
+.top-container{
+    position: relative;
+    background-color: #DAF5FF;
+    padding-top: 700px;                      
+}
+.middle-container{  
+    background-color: #F5F3C1;
+}
+.image{
+    margin-top: 20px;
+    height: 200px;
+    width: 15%;
+}
+.labtop{
+    background-color: #F5F3C1; 
+    height: 150px;
+    width: 20%;
+}
+h3{
+    color:#DFA67B;
+}
+.line{
+    border-top-style: solid;
+    border-color: #FAD6A5;
+    border-width: 20%;
+}
+h2{
+    color: #DFA67B;
+}
+.table{
+  display: block;         /* to center a image*/
+  margin-left: auto;
+  margin-right: auto;    
+  width: 20%;
+}
+.contact{
+    position: relative;
+    bottom: 1px;
+}
+.skills{
+    width: 50%;
+    margin: auto;
+    line-height: 2;
+}
+.html{
+    float: left;
+    margin: 20px;
+   
+}
+.css{
+    float:right;
+    margin: 20px;
+}
+.pro{
+    margin: 70px auto 70px auto;
+}
+.htmlclass{
+    text-align: right;  
+    margin: 70px auto 70px auto;  
+}
+.cssclass{
+    text-align: left;
+    margin: 70px auto 70px auto;
+}
+.contact{
+    height:70px;
+    width:10%;
+}
+.bottom-container{                
+ position: relative;              /* parent */
+ background-color: #F9E2AF; 
+ height: 90px;
+ margin-top: 0px;
+ width: 100%;
+}
+.linkdin{
+    position: absolute;           /* child */
+    left: 550px;
+    top:10px;
+}
+.twitter{
+    position: absolute;
+    left:665px;
+    top:10px;
+}
+.github{ 
+   position: absolute;
+   top: 10px;
+   right:550px;
+}
+.copy{
+    position: absolute;
+    bottom: 2px;
+    left:560px;
+}
+
